@@ -1,0 +1,77 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+body {
+	background: url("test3.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.logincontainer {
+	max-width: 400px;
+	border-radius: 20px;
+	margin: auto;
+	background: pink;
+	margin-top: 100px;
+	opacity: 90%;
+	padding: 40px;
+}
+
+input[type = text], input[type = password] {
+	width: 100%;
+	padding: 12px 5px;
+	border-radius: 5px;
+	border: none;
+	margin: 5px auto 10px;
+	font-weight: bold;
+	border-bottom: 3px ridge lightcoral;
+}
+
+.or {
+	text-align: center;
+	margin-top: 10px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: white;
+	font-size: 30px;
+}
+
+input[type = submit] {
+	outline: none;
+	padding: 10px 0;
+	border: none;
+	width: 100%;
+	margin: 30px auto 0;
+	opacity: 0.7;
+	font-size: 20px;
+	background-color: deeppink;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+button {
+	margin: 10px auto;
+	border-radius: 20px;
+	font-weight: bold;
+	border: none;
+	padding: 10px 0;
+	opacity: 0.7;
+	width: 100%;
+	background-color: deeppink;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+input[type = submit]:hover, button:hover {
+	cursor: pointer;
+	background-color: salmon;
+}
